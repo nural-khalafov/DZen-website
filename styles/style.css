@@ -1,0 +1,40 @@
+* {
+    background-color: darkgoldenrod;
+}
+
+header {
+    background-color: darkolivegreen;
+}
+
+.topNavBar {
+    background-color: darkolivegreen;
+    display: inline;
+}
+
+.logo {
+    background-color: darkolivegreen;
+    position: relative;
+    top: -5px;
+    padding: 5px 5px;
+}
+
+.logoName {
+    background-color: darkolivegreen;
+    padding: 5px 5px;
+}
+
+.navBar {
+    display: inline;
+    background-color: darkolivegreen;
+    position: relative;
+    top: -25px;
+    right: -25px;
+}
+
+.navBar a {
+    background-color: darkolivegreen;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px 15px;
+}
