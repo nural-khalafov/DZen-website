@@ -9,17 +9,27 @@ header {
 .topNavBar {
     background-color: darkolivegreen;
     display: inline;
+    position: static;
+    margin: 5px;
 }
 
 .logo {
     background-color: darkolivegreen;
     position: relative;
-    top: -5px;
+    top: -2.5px;
     padding: 5px 5px;
+}
+
+.logo img:hover
+{
+    height: 65px;
+    width: 65px;
 }
 
 .logoName {
     background-color: darkolivegreen;
+    position: relative;
+    top: 5px;
     padding: 5px 5px;
 }
 
@@ -33,8 +43,16 @@ header {
 
 .navBar a {
     background-color: darkolivegreen;
+    color:orange;
     text-align: center;
     text-decoration: none;
     font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
     padding: 0px 15px;
+}
+
+.navBar a:hover
+{
+    font-size: 34px;
 }
